@@ -39,12 +39,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/html-to-png.git"
+    "url": "git+https://github.com/goov373/html-to-png.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/html-to-png/issues"
+    "url": "https://github.com/goov373/html-to-png/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/html-to-png#readme",
+  "homepage": "https://github.com/goov373/html-to-png#readme",
   "dependencies": {
     "html-to-image": "^1.11.11"
   },
