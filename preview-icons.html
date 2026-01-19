@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Icon Preview</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #1a1a2e;
+      color: white;
+      padding: 40px;
+      display: flex;
+      gap: 60px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .option {
+      text-align: center;
+    }
+    .option h2 {
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    .icon-container {
+      background: #2a2a4a;
+      padding: 30px;
+      border-radius: 16px;
+    }
+    img {
+      width: 128px;
+      height: 128px;
+    }
+    .sizes {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .sizes img {
+      background: #3a3a5a;
+      border-radius: 8px;
+      padding: 8px;
+    }
+    .size-64 { width: 64px; height: 64px; }
+    .size-32 { width: 32px; height: 32px; }
+    .size-16 { width: 16px; height: 16px; }
+  </style>
+</head>
+<body>
+  <div class="option">
+    <h2>Option 1: Blue (Frame + Arrow + Image)</h2>
+    <div class="icon-container">
+      <img src="icon.svg" alt="Icon Option 1">
+    </div>
+    <div class="sizes">
+      <img src="icon.svg" class="size-64">
+      <img src="icon.svg" class="size-32">
+      <img src="icon.svg" class="size-16">
+    </div>
+  </div>
+
+  <div class="option">
+    <h2>Option 2: Green (Viewfinder + Download)</h2>
+    <div class="icon-container">
+      <img src="icon-alt.svg" alt="Icon Option 2">
+    </div>
+    <div class="sizes">
+      <img src="icon-alt.svg" class="size-64">
+      <img src="icon-alt.svg" class="size-32">
+      <img src="icon-alt.svg" class="size-16">
+    </div>
+  </div>
+</body>
+</html>

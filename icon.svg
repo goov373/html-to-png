@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- Background rounded square -->
+  <rect x="8" y="8" width="112" height="112" rx="20" fill="#3B82F6"/>
+
+  <!-- Large image frame - centered -->
+  <rect x="24" y="24" width="80" height="64" rx="6" stroke="white" stroke-width="4" fill="none"/>
+
+  <!-- Sun/circle inside frame -->
+  <circle cx="44" cy="42" r="8" fill="white"/>
+
+  <!-- Mountains inside frame -->
+  <path d="M24 82 L48 54 L64 72 L80 52 L104 82 L104 88 L24 88 Z" fill="white"/>
+
+  <!-- Export arrow in bottom right -->
+  <circle cx="96" cy="96" r="18" fill="white" stroke="#1E40AF" stroke-width="3"/>
+  <path d="M96 88 L96 102" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M90 97 L96 103 L102 97" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
